@@ -1,5 +1,5 @@
 // The open world: two mountains joined by a winding trail — homestay → Kelagur tea estate →
-// evergreen forest → Netravathi stream → Rani Jhari ridge climb → Bandaje falls. Everything is generated from a fixed seed.
+// evergreen forest → Bandaje stream → Rani Jhari ridge climb → Bandaje falls. Everything is generated from a fixed seed.
 import * as THREE from 'three';
 import { Sky } from 'three/addons/objects/Sky.js';
 import { mulberry32, noise2, fbm, ridged, smoothstep, mix, clamp } from './noise.js';

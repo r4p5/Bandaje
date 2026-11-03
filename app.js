@@ -573,8 +573,8 @@ function chapterFor(st) {
   if (st.mode === 'memory' && st.g.memory?.stage !== 'trek') return { name: 'MEMORIES', sub: 'KELAGUR TEA ESTATE', next: 'EVERGREEN FOREST' };
   if (st.s >= L - 40) return { name: 'BANDAJE FALLS', sub: 'DURGADAHALLI · DESTINATION REACHED', next: 'EXPEDITION COMPLETE' };
   if (st.s >= S(MARK.climbStart) + 25) return { name: 'RANI JHARI RIDGE', sub: 'THE CLIMB · CLOUD VIEWPOINTS', next: 'BANDAJE FALLS' };
-  if (st.s >= S(MARK.crossing) - 45) return { name: 'NETRAVATHI STREAM', sub: 'VALLEY CROSSING', next: 'RANI JHARI RIDGE' };
-  return { name: 'EVERGREEN FOREST', sub: 'WESTERN GHATS · DESCENT', next: 'NETRAVATHI STREAM' };
+  if (st.s >= S(MARK.crossing) - 45) return { name: 'Bandaje STREAM', sub: 'VALLEY CROSSING', next: 'RANI JHARI RIDGE' };
+  return { name: 'EVERGREEN FOREST', sub: 'WESTERN GHATS · DESCENT', next: 'Bandaje STREAM' };
 }
 
 // Stylised readout anchored on Kelagur (13°09.9'N 75°27.4'E); scene metres are stretched ×11 to
